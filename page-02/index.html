@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E Store-Mobile/web (Community)</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="header">
+      <h1> <img src="img/Logo.png" alt=""></h1>
+      <div class="search-bar">
+
+        <svg class="search-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
+          stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+
+        <input type="text" class="search-input" placeholder="Search" />
+      </div>
+
+      <div class="mobile-menu">
+         <ul id="nav-menu">
+          <li><a href="../page-01/">Home</a></li>
+          <li><a href="../page-02/" class="selected-page">Products</a></li>
+          <li>About</li>
+          <li>Contact Us</li>
+        </ul>
+        <div id="options-menu" class="option-menu">
+          <img src="img/heart-regular-full.svg" alt="">
+          <img src="img/Cart.png" alt="">
+          <img src="img/user-regular-full.svg" alt="">
+        </div>
+      </div>
+      <div class="hamburger" id="hamburger">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+
+      <aside class="filter-brand">
+        <div class="filter-header">
+          <h4>Brand</h4>
+          <button class="toggle-icon"><i class="fa-solid fa-chevron-up"></i></button>
+        </div>
+
+        <div class="filter-search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="Search">
+        </div>
+
+        <ul class="filter-list">
+          <li>
+            <label>
+              <input type="checkbox" checked>
+              <span class="brand-name">Apple</span>
+            </label>
+            <span class="brand-count">110</span>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox">
+              <span class="brand-name">Samsung</span>
+            </label>
+            <span class="brand-count">125</span>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox">
+              <span class="brand-name">Xiaomi</span>
+            </label>
+            <span class="brand-count">69</span>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox">
+              <span class="brand-name">Poco</span>
+            </label>
+            <span class="brand-count">44</span>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox">
+              <span class="brand-name">OPPO</span>
+            </label>
+            <span class="brand-count">38</span>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox">
+              <span class="brand-name">Honor</span>
+            </label>
+            <span class="brand-count">19</span>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox">
+              <span class="brand-name">Motorola</span>
+            </label>
+            <span class="brand-count">34</span>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox">
+              <span class="brand-name">Nokia</span>
+            </label>
+            <span class="brand-count">22</span>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox">
+              <span class="brand-name">Realme</span>
+            </label>
+            <span class="brand-count">25</span>
+          </li>
+        </ul>
+      </aside>
+
+      <div class="selected-products">
+        <div class="selected-products-container">
+          <div class="selected-products-header">
+            <h3>Selected Products: <span>85</span></h3>
+
+            <button class="filter-dropdown">
+              <span>Filters</span>
+              <i class="fa-solid fa-sliders"></i>
+
+            </button>
+
+            <button class="sort-dropdown">
+              <span>By rating</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+          </div>
+
+          <div class="product-grid">
+            <article class="product-card">
+              <div class="wishlist-button">
+                <button class="wishlist-icon"><i class="fa-regular fa-heart"></i></button>
+              </div>
+              <div class="product-infos">
+                <img src="img/iphone-gold.png" alt="">
+                <h4>Apple iPhone 14 Pro 512GB Gold (MQ233)</h4>
+                <p class="price">$1437</p>
+                <button class="buy-now">Buy Now</button>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="wishlist-button">
+                <button class="wishlist-icon"><i class="fa-regular fa-heart"></i></button>
+              </div>
+              <div class="product-infos">
+                <img src="img/iphone-11-white.png" alt="">
+                <h4>Apple iPhone 11 128GB White (MQ233)</h4>
+                <p class="price">$510</p>
+                <button class="buy-now">Buy Now</button>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="wishlist-button">
+                <button class="wishlist-icon"><i class="fa-regular fa-heart"></i></button>
+              </div>
+              <div class="product-infos">
+                <img src="img/iphone-11-white.png" alt="">
+                <h4>Apple iPhone 11 128GB White (MQ233)</h4>
+                <p class="price">$550</p>
+                <button class="buy-now">Buy Now</button>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="wishlist-button">
+                <button class="wishlist-icon"><i class="fa-regular fa-heart"></i></button>
+              </div>
+              <div class="product-infos">
+                <img src="img/iphone-14-silver.png" alt="">
+                <h4>Apple iPhone 14 Pro 1TB Gold (MQ2V3) </h4>
+                <p class="price">$1499</p>
+                <button class="buy-now">Buy Now</button>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="wishlist-button">
+                <button class="wishlist-icon"><i class="fa-regular fa-heart"></i></button>
+              </div>
+              <div class="product-infos">
+                <img src="img/iphone-14-gold.png" alt="">
+                <h4>Apple iPhone 14 Pro 1TB Gold (MQ2V3)</h4>
+                <p class="price">$1399</p>
+                <button class="buy-now">Buy Now</button>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="wishlist-button">
+                <button class="wishlist-icon"><i class="fa-regular fa-heart"></i></button>
+              </div>
+              <div class="product-infos">
+                <img src="img/iphone-14-purple.png" alt="">
+                <h4>Apple iPhone 14 Pro 128GB Deep Purple (MQ0G3)</h4>
+                <p class="price">$1600</p>
+                <button class="buy-now">Buy Now</button>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="wishlist-button">
+                <button class="wishlist-icon"><i class="fa-regular fa-heart"></i></button>
+              </div>
+              <div class="product-infos">
+                <img src="img/iphone-pink.png" alt="">
+                <h4>Apple iPhone 13 mini 128GB Pink (MLK23)</h4>
+                <p class="price">$850</p>
+                <button class="buy-now">Buy Now</button>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="wishlist-button">
+                <button class="wishlist-icon"><i class="fa-regular fa-heart"></i></button>
+              </div>
+              <div class="product-infos">
+                <img src="img/iphone-14-black.png" alt="">
+                <h4>Apple iPhone 14 Pro 256GB Space Black (MQ0T3)</h4>
+                <p class="price">$1399</p>
+                <button class="buy-now">Buy Now</button>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="wishlist-button">
+                <button class="wishlist-icon"><i class="fa-regular fa-heart"></i></button>
+              </div>
+              <div class="product-infos">
+                <img src="img/iphone-14-white.png" alt="">
+                <h4>Apple iPhone 14 Pro 256Gb Silver (MQ103)</h4>
+                <p class="price">$1399</p>
+                <button class="buy-now">Buy Now</button>
+              </div>
+            </article>
+          </div>
+          <nav class="pagination">
+            <button class="page-arrow"><i class="fa-solid fa-chevron-left"></i></button>
+
+            <button class="page-number active">1</button>
+            <button class="page-number">2</button>
+            <button class="page-number">3</button>
+            <span class="page-dots">....</span>
+            <button class="page-number">12</button>
+
+            <button class="page-arrow"><i class="fa-solid fa-chevron-right"></i></button>
+          </nav>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <nav class="pages">
+    <a href="../page-01/">1</a>
+    <a href="../page-02/">2</a>
+    <a href="../page-03/">3</a>
+  </nav>
+
+
+
+  <footer>
+    <div class="footer-column-container">
+      <div class="footer-column description">
+        <img src="img/footer-logo.png" alt="">
+        <p>We are a residential interior design firm located in Portland.
+          Our boutique-studio offers more than
+        </p>
+      </div>
+      <div class="footer-column services">
+        <h3>Services</h3>
+        <h5>Bonus program</h5>
+        <h5>Gift cards</h5>
+        <h5>Credit and payement</h5>
+        <h5>Service contracts</h5>
+        <h5>Non-cash account</h5>
+        <h5>Paiment</h5>
+      </div>
+      <div class="footer-column assistance">
+        <h3>Assistance to the buyer</h3>
+        <h5>Find an order</h5>
+        <h5>Terms of delivery</h5>
+        <h5>Exchange and return of goods</h5>
+        <h5>Guarantee</h5>
+        <h5>Frequently asked questions</h5>
+        <h5>Terms of use of the site</h5>
+      </div>
+      <div class="social-media-container social-media">
+        <div class="social-icon">
+          <img src="img/Twitter.png" alt="">
+        </div>
+        <div class="social-icon">
+          <img src="img/Facebook.png" alt="">
+        </div>
+        <div class="social-icon">
+          <img src="img/Tiktok.png" alt="">
+        </div>
+        <div class="social-icon">
+          <img src="img/Instagram.png" alt="">
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+
+</html>
