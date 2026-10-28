@@ -1,2 +1,2 @@
 # E-Store
-Réaliser avec utilisant HTML, CSS et JavaScript.
+Réaliser avec HTML, CSS et JavaScript.
