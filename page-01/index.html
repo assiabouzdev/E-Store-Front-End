@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E Store-Mobile/web (Community)</title>
+  <link rel="stylesheet" href="style.css">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+
+
+</head>
+
+<body>
+  <header>
+    <div class="header">
+      <h1> <img src="img/Logo.png" alt=""></h1>
+      <div class="search-bar">
+
+        <svg class="search-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
+          stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+
+        <input type="text" class="search-input" placeholder="Search" />
+      </div>
+
+      <div class="mobile-menu">
+        <ul id="nav-menu">
+          <li><a href="../page-01/" class="selected-page">Home</a></li>
+          <li><a href="../page-02/">Products</a></li>
+          <li>About</li>
+          <li>Contact Us</li>
+        </ul>
+        <div id="options-menu" class="option-menu">
+          <img src="img/heart-regular-full.svg" alt="">
+          <img src="img/Cart.png" alt="">
+          <img src="img/user-regular-full.svg" alt="">
+        </div>
+
+
+      </div>
+      <div class="hamburger" id="hamburger">
+
+        <i class="fa-solid fa-bars"></i>
+
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h3>Pro.Beyond.</h3>
+          <h2>IPhone 14 <span>Pro</span></h2>
+          <p>Created to change everything for the better. For everyone</p>
+          <button> Shop Now </button>
+        </div>
+        <div class="hero-image">
+          <img class="right" src="img/Iphone-Image.png" alt="">
+        </div>
+      </div>
+
+
+    </section>
+
+    <section class="featured-product-section">
+      <div class="featured-product">
+
+        <div class="playstation product-container">
+          <div class="image-container">
+            <img src="img/playstation.png" alt="">
+          </div>
+
+          <div class="product-content">
+            <h3>Playstation 5</h3>
+            <p>
+              Incredibly powerful CPUs, GPUs, and an SSD with
+              integrated I/O will redefine your PlayStation experience
+            </p>
+          </div>
+        </div>
+
+        <div class="airpods product-container">
+          <div class="image-container">
+            <img src="img/airpods.png" alt="">
+          </div>
+
+          <div class="product-content">
+            <h3>Apple Airpods <span>Max</span>
+            </h3>
+            <p>
+              Computational audio. Listen, it's powerful
+            </p>
+          </div>
+        </div>
+
+        <div class="vision-pro product-container">
+          <div class="image-container">
+            <img src="img/vision-pro.png" alt="">
+          </div>
+          <div class="product-content">
+            <h3>Apple Vision <span>Pro</span></h3>
+            <p>
+              An immersive way to experience entertainment
+            </p>
+          </div>
+        </div>
+
+        <div class="macbook product-container">
+          <div class="product-content">
+            <h3>Macbook <span>Air</span></h3>
+            <p>
+              The new 15‑inch MacBook Air makes room for more of what
+              you love with a spacious Liquid Retina display.
+            </p>
+            <button>Shop Now</button>
+          </div>
+          <div class="image-container">
+            <img src="img/MacBook-Pro-14.png" alt="">
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="categories-section">
+      <div class="categories-container">
+        <div class="categories-header">
+          <h3>Browse By Categorie</h3>
+          <h3></h3>
+        </div>
+        <div class="categories">
+          <div class="categorie-card phones">
+            <img src="img/phones.png" alt="">
+            <h5>Phones</h5>
+          </div>
+          <div class="categorie-card watches">
+            <img src="img/smart-watches.png" alt="">
+            <h5>Smart Watches</h5>
+          </div>
+          <div class="categorie-card cameras">
+            <img src="img/cameras.png" alt="">
+            <h5>Cameras</h5>
+          </div>
+          <div class="categorie-card headphones">
+            <img src="img/headphones.png" alt="">
+            <h5>Headphones</h5>
+          </div>
+          <div class="categorie-card computers">
+            <img src="img/computers.png" alt="">
+            <h5>Computers</h5>
+          </div>
+          <div class="categorie-card gaming">
+            <img src="img/gaming.png" alt="">
+            <h5>Gaming</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="product-listing">
+      <div class="product-listing-container">
+        <div class="listing-tabs">
+          <button><span>New Arrival</span></button>
+          <button>Bestseller</button>
+          <button>Featured Products</button>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="wishlist-button">
+              <button class="wishlist-icon"><i class="fa-regular fa-heart"></i></button>
+            </div>
+            <div class="product-infos">
+              <img src="img/iphone-14-pro.png" alt="">
+              <h4>Apple iPhone 14 Pro Max 128GB Deep Purple</h4>
+              <p class="price">$900</p>
+              <button class="buy-now">Buy Now</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="wishlist-button">
+              <button class="wishlist-icon"><i class="fa-regular fa-heart"></i></button>
+            </div>
+            <div class="product-infos">
+              <img src="img/camera.png" alt="">
+              <h4>Blackmagic Pocket Cinema Camera 6k</h4>
+              <p class="price">$2535</p>
+              <button class="buy-now">Buy Now</button>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="wishlist-button">
+              <button class="wishlist-icon"><i class="fa-regular fa-heart"></i></button>
+            </div>
+            <div class="product-infos">
+              <img src="img/apple-watch.png" alt="">
+              <h4>Apple Watch Series 9 GPS 41mm Starlight Aluminium</h4>
+              <p class="price">$399</p>
+              <button class="buy-now">Buy Now</button>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="wishlist-button">
+              <button class="wishlist-icon"><i class="fa-regular fa-heart"></i></button>
+            </div>
+            <div class="product-infos">
+              <img src="img/airpods.png" alt="">
+              <h4>AirPods Max Silver
+                Starlight Aluminium </h4>
+              <p class="price">$549</p>
+              <button class="buy-now">Buy Now</button>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="wishlist-button">
+              <button class="wishlist-icon"><i class="fa-regular fa-heart"></i></button>
+            </div>
+            <div class="product-infos">
+              <img src="img/g-watch.png" alt="">
+              <h4>Samsung Galaxy Watch6 Classic 47mm Black</h4>
+              <p class="price">$369</p>
+              <button class="buy-now">Buy Now</button>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="wishlist-button">
+              <button class="wishlist-icon"><i class="fa-regular fa-heart"></i></button>
+            </div>
+            <div class="product-infos">
+              <img src="img/galaxy.png" alt="">
+              <h4>Galaxy Z Fold5 Unlocked | 256GB | Phantom Black</h4>
+              <p class="price">$1799</p>
+              <button class="buy-now">Buy Now</button>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="wishlist-button">
+              <button class="wishlist-icon"><i class="fa-regular fa-heart"></i></button>
+            </div>
+            <div class="product-infos">
+              <img src="img/buds.png" alt="">
+              <h4>Galaxy Buds FE
+                Graphite</h4>
+              <p class="price">$99.99</p>
+              <button class="buy-now">Buy Now</button>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="wishlist-button">
+              <button class="wishlist-icon"><i class="fa-regular fa-heart"></i></button>
+            </div>
+            <div class="product-infos">
+              <img src="img/ipad.png" alt="">
+              <h4>Apple iPad 9 10.2" 64GB Wi-Fi Silver (MK2L3) 2021</h4>
+              <p class="price">$398</p>
+              <button class="buy-now">Buy Now</button>
+            </div>
+          </article>
+        </div>
+      </div>
+
+
+    </section>
+
+    <section class="popular-products">
+      <article class="showcase-card">
+        <img src="img/products.png" alt="Popular Products">
+        <h4>Popular Products</h4>
+        <p>iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.
+        </p>
+        <button>Shop Now</button>
+      </article>
+
+      <article class="showcase-card">
+        <img src="img/ipads.png" alt="">
+        <h4>Ipad Pro</h4>
+        <p>iPad combines a magnificent 10.2-inch Retina display,
+          incredible performance, multitasking and ease of use.</p>
+        <button>Shop Now</button>
+      </article>
+
+      <article class="showcase-card galaxy">
+        <img src="img/sumsung-galaxy.png" alt="Samsung Galaxy">
+        <h4>Samsung Galaxy</h4>
+        <p>iPad combines a magnificent 10.2-inch Retina display,
+          incredible performance, multitasking and ease of use</p>
+        <button>Shop Now</button>
+      </article>
+
+      <article class="showcase-card last">
+        <img src="img/MacBook-Pro-14.png" alt="Macbook Pro" class="macbook-pro">
+        <h4>Macbook Pro</h4>
+        <p>iPad combines a magnificent 10.2-inch Retina display,
+          incredible performance, multitasking and ease of use</p>
+        <button>Shop Now</button>
+      </article>
+    </section>
+    <div class="carousel-dots">
+      <span class="active"></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <section class="discount-section">
+      <div class="discount-product-container">
+        <div class="discount">
+          <h3>Discount up to -50%</h3>
+        </div>
+        <div class="discount-products">
+          <article class="product-card">
+            <div class="wishlist-button">
+              <button class="wishlist-icon"><i class="fa-regular fa-heart"></i></button>
+            </div>
+            <div class="product-infos product-info-discount">
+              <img src="img/iphone-gold.png" alt="">
+              <h4>Apple iPhone 14 Pro Max 128GB Deep Purple</h4>
+              <p class="price">$900</p>
+              <button class="buy-now">Buy Now</button>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="wishlist-button">
+              <button class="wishlist-icon"><i class="fa-regular fa-heart"></i></button>
+            </div>
+            <div class="product-infos product-info-discount">
+              <img src="img/airpods.png" alt="">
+              <h4>Apple iPhone 14 Pro Max 128GB Deep Purple</h4>
+              <p class="price">$900</p>
+              <button class="buy-now">Buy Now</button>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="wishlist-button">
+              <button class="wishlist-icon"><i class="fa-regular fa-heart"></i></button>
+            </div>
+            <div class="product-infos product-info-discount">
+              <img src="img/apple-watch.png" alt="">
+              <h4>Apple iPhone 14 Pro Max 128GB Deep Purple</h4>
+              <p class="price">$900</p>
+              <button class="buy-now">Buy Now</button>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="wishlist-button">
+              <button class="wishlist-icon"><i class="fa-regular fa-heart"></i></button>
+            </div>
+            <div class="product-infos product-info-discount">
+              <img src="img/iphone-silver.png" alt="">
+              <h4>Apple iPhone 14 Pro Max 128GB Deep Purple</h4>
+              <p class="price">$900</p>
+              <button class="buy-now">Buy Now</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <nav class="pages">
+      <a href="../page-01/">1</a>
+      <a href="../page-02/">2</a>
+      <a href="../page-03/">3</a>
+    </nav>
+
+    <section class="big-summer">
+      <h2>Big Summer <span>Sale</span></h2>
+      <p>Commodo fames vitae vitae leo mauris in. Eu consequat.</p>
+      <button>Shop Now</button>
+    </section>
+  </main>
+
+
+  <footer>
+    <div class="footer-column-container">
+      <div class="footer-column description">
+        <img src="img/footer-logo.png" alt="">
+        <p>We are a residential interior design firm located in Portland.
+          Our boutique-studio offers more than
+        </p>
+      </div>
+      <div class="footer-column services">
+        <h3>Services</h3>
+        <h5>Bonus program</h5>
+        <h5>Gift cards</h5>
+        <h5>Credit and payement</h5>
+        <h5>Service contracts</h5>
+        <h5>Non-cash account</h5>
+        <h5>Paiment</h5>
+      </div>
+      <div class="footer-column assistance">
+        <h3>Assistance to the buyer</h3>
+        <h5>Find an order</h5>
+        <h5>Terms of delivery</h5>
+        <h5>Exchange and return of goods</h5>
+        <h5>Guarantee</h5>
+        <h5>Frequently asked questions</h5>
+        <h5>Terms of use of the site</h5>
+      </div>
+      <div class="social-media-container social-media">
+        <div class="social-icon">
+          <img src="img/Twitter.png" alt="">
+        </div>
+        <div class="social-icon">
+          <img src="img/Facebook.png" alt="">
+        </div>
+        <div class="social-icon">
+          <img src="img/Tiktok.png" alt="">
+        </div>
+        <div class="social-icon">
+          <img src="img/Instagram.png" alt="">
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <script src="main.js"></script>
+</body>
+
+</html>
